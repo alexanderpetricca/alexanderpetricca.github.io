@@ -1,0 +1,29 @@
+/* Global */
+
+body {
+    height: 100dvh;
+    background: transparent linear-gradient(90deg, #484D53 0%, #272727 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text-container {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 0.4em;
+    text-align: center;
+}
+
+@media(min-width: 576px) {
+    #text-container {
+        font-size: 30px;
+    }
+}
